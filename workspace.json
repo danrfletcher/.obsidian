@@ -1,0 +1,302 @@
+{
+  "main": {
+    "id": "38ae2e17bea16e02",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e669c504ef47f99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef8b35feb29b6fe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mission/Mission.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mission"
+            }
+          },
+          {
+            "id": "07aade141b9021c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mission/Nueral/Nueral Members/Scott Fairnington.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scott Fairnington"
+            }
+          },
+          {
+            "id": "c21e5fbd8d600b48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mission/Nueral/Nueral Priorities/Nueral Priorities.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nueral Priorities"
+            }
+          },
+          {
+            "id": "07078e8686a3f988",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nueral Initiatives"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b3ab1970b7470e40",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce73927ab70629d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "178067600c999beb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4ff124e5dfd39779",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fd8c7a9e051623c1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "c3ccb00a6d903c6f",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279
+  },
+  "right": {
+    "id": "d64c5fb55f768002",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ab88a441214d2d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81662c08b39aaf35",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "8470facfbab038dd",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
+          },
+          {
+            "id": "598e25535e632a6a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "4b6dca5a0fd1af21",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "8ee480ada3cc8c7d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "073d5e49a8305539",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "770864d9860dcac7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mission/Nueral/Nueral Members/Dan Fletcher.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dan Fletcher"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "dbfolder:Create a new database table": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "cmdr:Show File History": false,
+      "terminal:Open terminal": false,
+      "obsidian-git:Open Git source control": false,
+      "custom-sort:Toggle custom sorting": false,
+      "system3-relay:Relay": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "07078e8686a3f988",
+  "lastOpenFiles": [
+    "Mission/Nueral/Nueral Members/Scott Fairnington.md",
+    "Mission/Mission.md",
+    "Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md",
+    "Mission/Nueral/Nueral Priorities/Nueral Priorities.md",
+    "Mission/Personal/Personal Initiatives/Personal Initiatives.md",
+    "Archive/Agenda.md",
+    "Archive/Diary.md",
+    "Archive/Custom Checkboxes.md",
+    "Elddis Crusader Superstorm Touring Caravan.md",
+    "Mission/Nueral/Nueral Members/Cam Bloomfield.md",
+    "Mission/Nueral/Nueral Members/Dan Fletcher.md",
+    "Live Event Ideas.md",
+    "Mission/Nueral/Nueral Docs/Expenditures.md",
+    "Nueral Templates/Agile Artifacts/Agile - Artifact Parent Link.md",
+    "Nueral Templates/Agile Artifacts/Agile - Acceptance Criteria.md",
+    "Nueral Templates/Workflows/States",
+    "Nueral Templates/Workflows/Metadata",
+    "Nueral Templates/Workflows/Dates",
+    "Nueral Templates/Prioritization/NALAp",
+    "Nueral Templates/Prioritization/MoSCoW",
+    "Nueral Templates/Prioritization/Kano",
+    "Nueral Templates/Members/Templates",
+    "Nueral Templates/Members/Active/Scott Fairnington",
+    "Nueral Templates/Members/Active/Dan Fletcher",
+    "Nueral Templates/Members/Active/Cam Bloomfield",
+    "Nueral/Nueral Docs/Rabat Rally Rampage/Notational Conventions.md",
+    "Nueral/Nueral Docs/Rabat Rally Rampage/Glendale Bandits - Sump Oil Episode Script.md",
+    "Nueral/Nueral Docs/Rabat Rally Rampage/Glendale Bandits - Chimney Pots Episode Script.md",
+    "Nueral/Nueral Docs/Rabat Rally Rampage/Expenditures.md",
+    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Participants - Initial Sales Call.md",
+    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Participants - Post-Payment Confirmation Call Script.md",
+    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Rally Introductory Briefing.md",
+    "Mission/Nueral/Nueral Docs/Notational Conventions.md",
+    "Mission/Nueral/Nueral Docs/Workflow States.md",
+    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Rally Plan.md",
+    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Rally Team.md"
+  ]
+}

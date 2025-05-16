@@ -1,0 +1,48 @@
+{
+  "release": {
+    "channel": "stable",
+    "automaticUpdates": false
+  },
+  "sharedFolders": [
+    {
+      "path": "Mission/Nueral",
+      "guid": "c0f117b3-348b-4ffc-8365-9adb079c458c",
+      "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "Archive/Templates/Nueral Templates",
+      "guid": "5cd8cc08-8c82-4e5a-b147-d5b0d5e290fb",
+      "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    }
+  ],
+  "enableUpdateYDocFromDiskBuffer": false,
+  "enableDocumentStatus": false,
+  "enableNewLinkFormat": false,
+  "enableDeltaLogging": false,
+  "enableHTTPSync": false,
+  "enableSyncMenu": true,
+  "enableDocumentServer": false,
+  "enableDocumentHistory": false,
+  "enableEditorTweens": false,
+  "enableSyncModal": false,
+  "enableDesyncPill": false,
+  "enableAutomaticUpdatesOption": false,
+  "enableAttachmentSync": true,
+  "enableNetworkLogging": false,
+  "enableCanvasSync": false,
+  "debugging": false
+}
