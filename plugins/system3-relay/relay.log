@@ -1,0 +1,912 @@
+[2025-05-19T18:45:55.711Z] [LOG] [ql]: Saving settings to disk: {
+  "release": {
+    "channel": "stable",
+    "automaticUpdates": false
+  },
+  "sharedFolders": [
+    {
+      "path": "Mission/Nueral",
+      "guid": "c0f117b3-348b-4ffc-8365-9adb079c458c",
+      "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": true
+      }
+    },
+    {
+      "path": "Archive/Templates/Nueral Templates",
+      "guid": "5cd8cc08-8c82-4e5a-b147-d5b0d5e290fb",
+      "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    }
+  ],
+  "enableUpdateYDocFromDiskBuffer": false,
+  "enableDocumentStatus": false,
+  "enableNewLinkFormat": false,
+  "enableDeltaLogging": false,
+  "enableHTTPSync": false,
+  "enableSyncMenu": true,
+  "enableDocumentServer": false,
+  "enableDocumentHistory": false,
+  "enableEditorTweens": false,
+  "enableSyncModal": false,
+  "enableDesyncPill": false,
+  "enableAutomaticUpdatesOption": false,
+  "enableAttachmentSync": true,
+  "enableNetworkLogging": false,
+  "enableCanvasSync": false,
+  "debugging": true
+}
+    at at ql.save (plugin:system3-relay:37:40450)
+[2025-05-19T18:45:57.689Z] [LOG] [System 3][Relay][Vault]: Modify Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md
+    at at eval (plugin:system3-relay:95:17956)
+[2025-05-19T18:45:57.833Z] [DEBUG] [LiveTokenStore]: check and refresh tokens
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:45:57.835Z] [DEBUG] [LiveTokenStore]: Token Store Report:
+Expiry Margin: 5m
+Active Tokens:
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:5cd8cc08-8c82-4e5a-b147-d5b0d5e290fb (Archive/Templates/Nueral Templates): 0 attempts, (expires in 2m)
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c (Mission/Nueral): 0 attempts, (expires in 2m)
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c:doc:1c610748-6515-48c1-b950-1ab843441e34 (/Nueral Initiatives/Nueral Initiatives.md): 0 attempts, (expires in 18m)
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c:doc:58b191ee-0d37-495d-ad70-bacc7b97c2ab (/Nueral Docs/Rabat Rally Rampage/Rally Plan.md): 0 attempts, (expires in 24m)
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c:doc:689b519a-0fd4-46d9-91bc-92f74f84d299 (/Nueral Priorities/Nueral Priorities.md): 0 attempts, (expires in 24m)
+Stale Tokens:
+Queue size: 0
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:39.023Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/auth-refresh {
+  "method": "POST",
+  "query": {},
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.024Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/records/cghkrvlsep468u6 {
+  "method": "GET",
+  "query": {},
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.027Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "filter": "id=\"cghkrvlsep468u6\"",
+    "expand": "relay_roles_via_user,relay_roles_via_user.relay,relay_roles_via_user.relay.storage_quota,relay_roles_via_user.role"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.028Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_roles/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.030Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_invitations/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.031Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/shared_folders/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,creator"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.032Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/subscriptions/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.055Z] [DEBUG] [postie]: send ql ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:39.056Z] [DEBUG] [postie]: send ql ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:39.057Z] [DEBUG] [postie]: send ql ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:39.057Z] [DEBUG] [postie]: send ql ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:39.058Z] [DEBUG] [postie]: send Yc ()=>{let n=this.updateManager.getNewRelease();n?(this.removeCommand("update-plugin"),this.addCommand({id:"update-plugin",name:`Update Plugin (${this.version} \u2192 ${n.tag_name})`,callback:async()=>{await this.updateManager.installUpdate(n)}}),this.log(`Update available: v${this.version} \u2192 ${n.tag_name}`)):this.removeCommand("update-plugin")}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:39.058Z] [DEBUG] [postie]: send gr a=>{let i=!1;this.items().forEach(l=>{let c=a.find(u=>u.guid==l.guid);l.remote!=c&&(i=!0),l.remote=c}),i&&this.update()}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:39.060Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "filter": "id=\"cghkrvlsep468u6\"",
+    "expand": "relay_roles_via_user,relay_roles_via_user.relay,relay_roles_via_user.relay.storage_quota,relay_roles_via_user.role"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.062Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_roles/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.064Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_invitations/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.065Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/shared_folders/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,creator"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.067Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/subscriptions/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.069Z] [DEBUG] [postie]: send Lc ()=>{this.login()}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:39.296Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/realtime {
+  "method": "POST",
+  "body": {
+    "clientId": "P2Mx1HR1un30Kzn7LL7iSe94JBNPIJ6APl3j0KwN",
+    "subscriptions": [
+      "relays/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay_invitations_via_relay%2Cshared_folders_via_relay%2Cshared_folders_via_relay.creator%2Csubscriptions_via_relay%2Csubscriptions_via_relay.relay%2Csubscriptions_via_relay.relay.storage_quota%2Ccreator%22%7D%7D",
+      "relay_invitations/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay%22%7D%7D",
+      "relay_roles/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22user%2Crelay%22%7D%7D",
+      "shared_folders/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay%2Ccreator%22%7D%7D",
+      "subscriptions/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22user%2Crelay%22%7D%7D"
+    ]
+  },
+  "query": {},
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at at Lc.pb.beforeSend (plugin:system3-relay:76:67971)
+[2025-05-19T18:46:39.302Z] [LOG] [Lc]: Token Refreshed
+    at at eval (plugin:system3-relay:76:68683)
+[2025-05-19T18:46:39.303Z] [LOG] [Lc]: JWT Info: {
+  "expiresAt": "02/06/2025, 19:46:40",
+  "expiresIn": "15 days",
+  "userId": "cghkrvlsep468u6",
+  "email": "[REDACTED]"
+}
+    at at eval (plugin:system3-relay:76:68711)
+[2025-05-19T18:46:39.348Z] [DEBUG] [postie]: send gr a=>{let i=!1;this.items().forEach(l=>{let c=a.find(u=>u.guid==l.guid);l.remote!=c&&(i=!0),l.remote=c}),i&&this.update()}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:39.626Z] [LOG] [Ot]: applying server flags {
+  "enableEditorTweens": false,
+  "enableSyncMenu": true,
+  "enableAttachmentSync": true
+}
+    at at Ot.applyServerFlags (plugin:system3-relay:25:9024)
+[2025-05-19T18:46:39.627Z] [DEBUG] [postie]: send gr a=>{let i=!1;this.items().forEach(l=>{let c=a.find(u=>u.guid==l.guid);l.remote!=c&&(i=!0),l.remote=c}),i&&this.update()}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:40.345Z] [DEBUG] [ql]: updated matches disk, no change
+    at at ql.update (plugin:system3-relay:37:40760)
+[2025-05-19T18:46:47.177Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:47.179Z] [LOG] [[SharedFile](Mission/Nueral)]: get provider token
+    at at zl.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:47.180Z] [DEBUG] [LiveTokenStore]: getting token Mission/Nueral
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:47.182Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:47.186Z] [DEBUG] [[SharedFile](Archive/Templates/Nueral Templates)]: [Provider State] Archive/Templates/Nueral Templates {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:47.186Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: get provider token
+    at at zl.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:47.187Z] [DEBUG] [LiveTokenStore]: getting token Archive/Templates/Nueral Templates
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:47.188Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:47.189Z] [DEBUG] [LiveViews][[Shared Folders]]: Refresh
+    at at uc._refreshViews (plugin:system3-relay:65:11454)
+[2025-05-19T18:46:47.256Z] [DEBUG] [LiveTokenStore]: starting
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:47.262Z] [DEBUG] [LiveTokenStore]: check and refresh tokens
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:47.265Z] [DEBUG] [LiveTokenStore]: Token Store Report:
+Expiry Margin: 5m
+Active Tokens:
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:5cd8cc08-8c82-4e5a-b147-d5b0d5e290fb (Archive/Templates/Nueral Templates): 0 attempts, (expires in 1m)
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c (Mission/Nueral): 0 attempts, (expires in 1m)
+Stale Tokens:
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c:doc:1c610748-6515-48c1-b950-1ab843441e34 (/Nueral Initiatives/Nueral Initiatives.md): 0 attempts, (expires in 17m)
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c:doc:58b191ee-0d37-495d-ad70-bacc7b97c2ab (/Nueral Docs/Rabat Rally Rampage/Rally Plan.md): 0 attempts, (expires in 23m)
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c:doc:689b519a-0fd4-46d9-91bc-92f74f84d299 (/Nueral Priorities/Nueral Priorities.md): 0 attempts, (expires in 23m)
+Queue size: 0
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:47.329Z] [WARN] [System 3][Relay]: Webviewer plugin not found or not initialized
+    at at Jc.patchWebviewer (plugin:system3-relay:95:14905)
+[2025-05-19T18:46:47.330Z] [DEBUG] [sc]: starting
+    at at sc.resume (plugin:system3-relay:50:15461)
+[2025-05-19T18:46:47.336Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:47.340Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:47.342Z] [DEBUG] [[SharedFile](Archive/Templates/Nueral Templates)]: [Provider State] Archive/Templates/Nueral Templates {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:47.343Z] [DEBUG] [[SharedFile](Archive/Templates/Nueral Templates)]: [Provider State] Archive/Templates/Nueral Templates {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:47.349Z] [DEBUG] [postie]: send ql ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.350Z] [DEBUG] [postie]: send ql ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.351Z] [DEBUG] [postie]: send gr M=>{this.remote=M.find(R=>R.guid==this.guid)}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.351Z] [DEBUG] [postie]: send Hc s=>{s.guid===this.relayId&&(this.server=s.provider)}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.352Z] [DEBUG] [postie]: send ql ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.352Z] [DEBUG] [postie]: send ql ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.353Z] [DEBUG] [postie]: send gr M=>{this.remote=M.find(R=>R.guid==this.guid)}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.354Z] [DEBUG] [postie]: send Hc s=>{s.guid===this.relayId&&(this.server=s.provider)}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.355Z] [DEBUG] [postie]: send Kl ()=>{this.refresh("[Shared Folders]"),this.folderListeners.forEach((l,c)=>{this.sharedFolders.has(c)||(l(),this.folderListeners.delete(c))}),this.sharedFolders.forEach(l=>{this.folderListeners.has(l)||this.folderListeners.set(l,i(l))})}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.357Z] [DEBUG] [postie]: send gr ()=>{r(this.getGroupProgress(t))}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.357Z] [DEBUG] [postie]: send gr ()=>{r(this.getGroupProgress(t))}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.360Z] [DEBUG] [postie]: send ys ()=>this.quickRefresh()
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.362Z] [DEBUG] [postie]: send ys ()=>this.quickRefresh()
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.364Z] [DEBUG] [postie]: send gr ()=>this.quickRefresh()
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:47.378Z] [DEBUG] [postie]: send Kl ()=>{this.sharedFolders.forEach(n=>{Wy([po.enableDocumentStatus],()=>{this.offDocumentListeners.get(n)||this.offDocumentListeners.set(n,n.fset.on(()=>{this.refresh()}))}),n.whenReady().then(()=>{this.refresh()}),this.unsubscribes.push(n.syncSettingsManager.subscribe(a=>{this.quickRefresh()})),this.unsubscribes.push(n.subscribe(this,()=>{this.quickRefresh()}))}),this.refresh()}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:48.016Z] [DEBUG] [Yc]: Fetching latest release from: https://api.github.com/repos/No-Instructions/Relay/releases/latest
+    at at Yc.fetchLatestRelease (plugin:system3-relay:94:12335)
+[2025-05-19T18:46:48.048Z] [LOG] [$l]: type registry change
+    at at eval (plugin:system3-relay:37:621)
+[2025-05-19T18:46:48.056Z] [LOG] [[SharedFile](Mission/Nueral)]: [getSyncFolder] getting syncfolder
+    at at zl.getSyncFolder (plugin:system3-relay:39:7850)
+[2025-05-19T18:46:48.059Z] [LOG] [[SyncFolder](/Nueral Priorities)]: created
+    at at new wr (plugin:system3-relay:33:6596)
+[2025-05-19T18:46:48.060Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.064Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.067Z] [LOG] [[SharedFile](Mission/Nueral)]: [getSyncFolder] getting syncfolder
+    at at zl.getSyncFolder (plugin:system3-relay:39:7850)
+[2025-05-19T18:46:48.067Z] [LOG] [[SyncFolder](/Nueral Members)]: created
+    at at new wr (plugin:system3-relay:33:6596)
+[2025-05-19T18:46:48.068Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.072Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.074Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.077Z] [LOG] [[SharedFile](Mission/Nueral)]: [getSyncFolder] getting syncfolder
+    at at zl.getSyncFolder (plugin:system3-relay:39:7850)
+[2025-05-19T18:46:48.078Z] [LOG] [[SyncFolder](/Nueral Initiatives)]: created
+    at at new wr (plugin:system3-relay:33:6596)
+[2025-05-19T18:46:48.079Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.080Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.082Z] [LOG] [[SharedFile](Mission/Nueral)]: [getSyncFolder] getting syncfolder
+    at at zl.getSyncFolder (plugin:system3-relay:39:7850)
+[2025-05-19T18:46:48.083Z] [LOG] [[SyncFolder](/Nueral Docs)]: created
+    at at new wr (plugin:system3-relay:33:6596)
+[2025-05-19T18:46:48.084Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.085Z] [LOG] [[SharedFile](Mission/Nueral)]: [getSyncFolder] getting syncfolder
+    at at zl.getSyncFolder (plugin:system3-relay:39:7850)
+[2025-05-19T18:46:48.086Z] [LOG] [[SyncFolder](/Nueral Docs/Rabat Rally Rampage)]: created
+    at at new wr (plugin:system3-relay:33:6596)
+[2025-05-19T18:46:48.087Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.089Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.091Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.092Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.094Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.095Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.098Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.100Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.103Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.107Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.128Z] [DEBUG] [[SharedFile](Mission/Nueral)]: sync: noop
+    at at Rl.r [as promiseFunction] (plugin:system3-relay:37:70398)
+[2025-05-19T18:46:48.128Z] [LOG] [[SharedFile](Mission/Nueral)]: get provider token
+    at at zl.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:48.128Z] [DEBUG] [LiveTokenStore]: getting token Mission/Nueral
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:48.129Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:48.129Z] [DEBUG] [LiveViews][[Shared Folders]]: Releasing Views []
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:48.130Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:48.141Z] [LOG] [$l]: type registry change
+    at at eval (plugin:system3-relay:37:621)
+[2025-05-19T18:46:48.148Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.150Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.153Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.158Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.161Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.164Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.165Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.168Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.170Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.173Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.174Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.176Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.178Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.179Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.181Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.182Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.184Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.186Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.188Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.190Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.192Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.194Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.195Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.196Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.197Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.198Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.199Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.200Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.201Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.203Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.205Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.206Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.207Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.208Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.209Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.210Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.211Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.211Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.212Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.213Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.214Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.215Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.216Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.218Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.219Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.221Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.222Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.223Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.224Z] [LOG] [[SharedFile](Archive/Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at at zl.getDoc (plugin:system3-relay:39:1349)
+[2025-05-19T18:46:48.238Z] [DEBUG] [[SharedFile](Archive/Templates/Nueral Templates)]: sync: noop
+    at at Rl.r [as promiseFunction] (plugin:system3-relay:37:70398)
+[2025-05-19T18:46:48.249Z] [LOG] [$l]: type registry change
+    at at eval (plugin:system3-relay:37:621)
+[2025-05-19T18:46:48.249Z] [DEBUG] [postie]: send Hu ()=>{this.log("type registry change"),this.notifyListeners()}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:48.251Z] [DEBUG] [postie]: send $l async()=>{await this.syncFileTree(this.syncStore)}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:48.252Z] [LOG] [$l]: type registry change
+    at at eval (plugin:system3-relay:37:621)
+[2025-05-19T18:46:48.252Z] [DEBUG] [postie]: send Hu ()=>{this.log("type registry change"),this.notifyListeners()}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:48.255Z] [DEBUG] [postie]: send $l async()=>{await this.syncFileTree(this.syncStore)}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:48.261Z] [DEBUG] [[SharedFile](Mission/Nueral)]: sync: noop
+    at at Rl.r [as promiseFunction] (plugin:system3-relay:37:70398)
+[2025-05-19T18:46:48.263Z] [DEBUG] [[SharedFile](Archive/Templates/Nueral Templates)]: sync: noop
+    at at Rl.r [as promiseFunction] (plugin:system3-relay:37:70398)
+[2025-05-19T18:46:48.303Z] [DEBUG] [Yc]: Fetching https://raw.githubusercontent.com/No-Instructions/Relay/main/manifest.json
+    at at Yc.fetchRepoManifest (plugin:system3-relay:94:14257)
+[2025-05-19T18:46:48.357Z] [DEBUG] [postie]: send Yc ()=>{let n=this.updateManager.getNewRelease();n?(this.removeCommand("update-plugin"),this.addCommand({id:"update-plugin",name:`Update Plugin (${this.version} \u2192 ${n.tag_name})`,callback:async()=>{await this.updateManager.installUpdate(n)}}),this.log(`Update available: v${this.version} \u2192 ${n.tag_name}`)):this.removeCommand("update-plugin")}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:48.358Z] [DEBUG] [postie]: send Zu ()=>{this.refresh("[Docset]")}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:48.389Z] [DEBUG] [postie]: send Zu ()=>{this.refresh("[Docset]")}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:48.445Z] [DEBUG] [Yc]: repo manifest {
+  "id": "system3-relay",
+  "name": "Relay",
+  "minAppVersion": "0.15.0",
+  "description": "Collaborate in real time with live cursors. Create multiplayer folders and manage user access.",
+  "author": "System 3",
+  "authorUrl": "https://system3.md",
+  "fundingUrl": "https://www.buymeacoffee.com/dtkav",
+  "isDesktopOnly": false,
+  "version": "0.5.3"
+}
+    at at Yc.fetchLatestTagFromChannel (plugin:system3-relay:94:12751)
+[2025-05-19T18:46:48.446Z] [DEBUG] [postie]: send Yc ()=>{let n=this.updateManager.getNewRelease();n?(this.removeCommand("update-plugin"),this.addCommand({id:"update-plugin",name:`Update Plugin (${this.version} \u2192 ${n.tag_name})`,callback:async()=>{await this.updateManager.installUpdate(n)}}),this.log(`Update available: v${this.version} \u2192 ${n.tag_name}`)):this.removeCommand("update-plugin")}
+    at at Bt.deliver (plugin:system3-relay:25:6348)
+[2025-05-19T18:46:49.155Z] [DEBUG] [LiveViews][[Shared Folders]]: Ready Views [
+  {
+    "type": "vs",
+    "file": "/Nueral Initiatives/Nueral Initiatives.md",
+    "canConnect": true
+  }
+]
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:49.160Z] [LOG] [[SharedFile](Mission/Nueral)]: get provider token
+    at at zl.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:49.160Z] [DEBUG] [LiveTokenStore]: getting token Mission/Nueral
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:49.161Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:49.163Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:49.169Z] [DEBUG] [LiveViews][[Shared Folders]]: Attached Views [
+  {
+    "type": "vs",
+    "file": "/Nueral Initiatives/Nueral Initiatives.md",
+    "canConnect": true
+  }
+]
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:49.169Z] [DEBUG] [LiveViews][[Shared Folders]]: loading plugins
+    at at uc._refreshViews (plugin:system3-relay:65:12316)
+[2025-05-19T18:46:49.238Z] [DEBUG] [LiveCMPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Gd (plugin:system3-relay:39:53674)
+[2025-05-19T18:46:49.240Z] [DEBUG] [InvalidLinkPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Xd (plugin:system3-relay:41:6319)
+[2025-05-19T18:46:49.253Z] [DEBUG] [LiveViews][[Shared Folders]]: refresh completed in 2063ms [LiveViews][[Shared Folders]]
+    at at uc._refreshViews (plugin:system3-relay:65:12378)
+[2025-05-19T18:46:49.255Z] [LOG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: get provider token
+    at at Lt.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:49.256Z] [DEBUG] [LiveTokenStore]: getting token /Nueral Initiatives/Nueral Initiatives.md
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:49.257Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:49.292Z] [WARN] [Shared Folders]: refreshQueue size: 6
+    at at uc.refresh (plugin:system3-relay:65:12685)
+[2025-05-19T18:46:49.292Z] [DEBUG] [LiveViews][[Docset]]: Refresh
+    at at uc._refreshViews (plugin:system3-relay:65:11454)
+[2025-05-19T18:46:49.293Z] [DEBUG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Initiatives/Nueral Initiatives.md {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at Lt.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:49.294Z] [DEBUG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Initiatives/Nueral Initiatives.md {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at Lt.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:49.295Z] [LOG] [[SharedFile](Mission/Nueral)]: get provider token
+    at at zl.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:49.295Z] [DEBUG] [LiveTokenStore]: getting token Mission/Nueral
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:49.296Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:49.296Z] [DEBUG] [LiveViews][[Docset]]: Releasing Views []
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:49.297Z] [LOG] [[SharedFile](Mission/Nueral)]: get provider token
+    at at zl.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:49.297Z] [DEBUG] [LiveTokenStore]: getting token Mission/Nueral
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:49.297Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:49.298Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:49.302Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:49.305Z] [DEBUG] [LiveViews][[Docset]]: Attached Views [
+  {
+    "type": "vs",
+    "file": "/Nueral Initiatives/Nueral Initiatives.md",
+    "canConnect": true
+  }
+]
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:49.305Z] [DEBUG] [LiveViews][[Docset]]: loading plugins
+    at at uc._refreshViews (plugin:system3-relay:65:12316)
+[2025-05-19T18:46:49.374Z] [DEBUG] [LiveCMPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Gd (plugin:system3-relay:39:53674)
+[2025-05-19T18:46:49.375Z] [DEBUG] [InvalidLinkPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Xd (plugin:system3-relay:41:6319)
+[2025-05-19T18:46:49.384Z] [DEBUG] [LiveViews][[Docset]]: refresh completed in 995ms [LiveViews][[Docset]]
+    at at uc._refreshViews (plugin:system3-relay:65:12378)
+[2025-05-19T18:46:49.384Z] [LOG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: get provider token
+    at at Lt.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:49.385Z] [DEBUG] [LiveTokenStore]: getting token /Nueral Initiatives/Nueral Initiatives.md
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:49.386Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:49.409Z] [DEBUG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Initiatives/Nueral Initiatives.md {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at Lt.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:49.496Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "connected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:50.086Z] [DEBUG] [ql]: updated matches disk, no change
+    at at ql.update (plugin:system3-relay:37:40760)
+[2025-05-19T18:46:50.089Z] [DEBUG] [ql]: updated matches disk, no change
+    at at ql.update (plugin:system3-relay:37:40760)
+[2025-05-19T18:46:50.185Z] [LOG] [Live][Workspace]: file-open
+    at at eval (plugin:system3-relay:95:16284)
+[2025-05-19T18:46:50.185Z] [DEBUG] [LiveViews][file-open]: Refresh
+    at at uc._refreshViews (plugin:system3-relay:65:11454)
+[2025-05-19T18:46:50.234Z] [DEBUG] [LiveViews][file-open]: Releasing Views []
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:50.236Z] [LOG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: get provider token
+    at at Lt.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:50.237Z] [DEBUG] [LiveTokenStore]: getting token /Nueral Initiatives/Nueral Initiatives.md
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:50.238Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:50.239Z] [DEBUG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Initiatives/Nueral Initiatives.md {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at Lt.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:50.239Z] [DEBUG] [LiveViews][file-open]: Attached Views [
+  {
+    "type": "vs",
+    "file": "/Nueral Initiatives/Nueral Initiatives.md",
+    "canConnect": true
+  }
+]
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:50.240Z] [DEBUG] [LiveViews][file-open]: loading plugins
+    at at uc._refreshViews (plugin:system3-relay:65:12316)
+[2025-05-19T18:46:50.295Z] [DEBUG] [LiveCMPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Gd (plugin:system3-relay:39:53674)
+[2025-05-19T18:46:50.295Z] [DEBUG] [InvalidLinkPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Xd (plugin:system3-relay:41:6319)
+[2025-05-19T18:46:50.304Z] [DEBUG] [LiveViews][file-open]: refresh completed in 119ms [LiveViews][file-open]
+    at at uc._refreshViews (plugin:system3-relay:65:12378)
+[2025-05-19T18:46:50.392Z] [LOG] [Live][Workspace]: layout-change
+    at at eval (plugin:system3-relay:95:16398)
+[2025-05-19T18:46:50.392Z] [DEBUG] [LiveViews][layout-change]: Refresh
+    at at uc._refreshViews (plugin:system3-relay:65:11454)
+[2025-05-19T18:46:50.394Z] [DEBUG] [LiveViews][layout-change]: Releasing Views []
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:50.395Z] [LOG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: get provider token
+    at at Lt.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:50.395Z] [DEBUG] [LiveTokenStore]: getting token /Nueral Initiatives/Nueral Initiatives.md
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:50.397Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:50.399Z] [DEBUG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Initiatives/Nueral Initiatives.md {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at Lt.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:50.399Z] [DEBUG] [LiveViews][layout-change]: Attached Views [
+  {
+    "type": "vs",
+    "file": "/Nueral Initiatives/Nueral Initiatives.md",
+    "canConnect": true
+  }
+]
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:50.400Z] [DEBUG] [LiveViews][layout-change]: loading plugins
+    at at uc._refreshViews (plugin:system3-relay:65:12316)
+[2025-05-19T18:46:50.456Z] [DEBUG] [LiveCMPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Gd (plugin:system3-relay:39:53674)
+[2025-05-19T18:46:50.457Z] [DEBUG] [InvalidLinkPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Xd (plugin:system3-relay:41:6319)
+[2025-05-19T18:46:50.461Z] [DEBUG] [LiveViews][layout-change]: refresh completed in 69ms [LiveViews][layout-change]
+    at at uc._refreshViews (plugin:system3-relay:65:12378)
+[2025-05-19T18:46:50.938Z] [LOG] [Live][Workspace]: layout-change
+    at at eval (plugin:system3-relay:95:16398)
+[2025-05-19T18:46:50.939Z] [DEBUG] [LiveViews][layout-change]: Refresh
+    at at uc._refreshViews (plugin:system3-relay:65:11454)
+[2025-05-19T18:46:50.940Z] [DEBUG] [LiveViews][layout-change]: Releasing Views []
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:50.940Z] [LOG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: get provider token
+    at at Lt.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:50.941Z] [DEBUG] [LiveTokenStore]: getting token /Nueral Initiatives/Nueral Initiatives.md
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:50.942Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:50.944Z] [DEBUG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Initiatives/Nueral Initiatives.md {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at Lt.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:50.945Z] [DEBUG] [LiveViews][layout-change]: Attached Views [
+  {
+    "type": "vs",
+    "file": "/Nueral Initiatives/Nueral Initiatives.md",
+    "canConnect": true
+  }
+]
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:50.945Z] [DEBUG] [LiveViews][layout-change]: loading plugins
+    at at uc._refreshViews (plugin:system3-relay:65:12316)
+[2025-05-19T18:46:51.055Z] [DEBUG] [LiveCMPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Gd (plugin:system3-relay:39:53674)
+[2025-05-19T18:46:51.056Z] [DEBUG] [InvalidLinkPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Xd (plugin:system3-relay:41:6319)
+[2025-05-19T18:46:51.069Z] [DEBUG] [LiveViews][layout-change]: refresh completed in 130ms [LiveViews][layout-change]
+    at at uc._refreshViews (plugin:system3-relay:65:12378)
+[2025-05-19T18:46:51.431Z] [DEBUG] [[SharedFile](Archive/Templates/Nueral Templates)]: [Provider State] Archive/Templates/Nueral Templates {
+  "status": "connected",
+  "intent": "connected"
+}
+    at at zl.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:51.798Z] [LOG] [Live][Workspace]: layout-change
+    at at eval (plugin:system3-relay:95:16398)
+[2025-05-19T18:46:51.798Z] [DEBUG] [LiveViews][layout-change]: Refresh
+    at at uc._refreshViews (plugin:system3-relay:65:11454)
+[2025-05-19T18:46:51.802Z] [DEBUG] [LiveViews][layout-change]: Releasing Views []
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:51.803Z] [LOG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: get provider token
+    at at Lt.getProviderToken (plugin:system3-relay:25:11121)
+[2025-05-19T18:46:51.804Z] [DEBUG] [LiveTokenStore]: getting token /Nueral Initiatives/Nueral Initiatives.md
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:51.805Z] [DEBUG] [LiveTokenStore]: token was valid, cache hit!
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:46:51.806Z] [DEBUG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Initiatives/Nueral Initiatives.md {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at at Lt.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:46:51.806Z] [DEBUG] [LiveViews][layout-change]: Attached Views [
+  {
+    "type": "vs",
+    "file": "/Nueral Initiatives/Nueral Initiatives.md",
+    "canConnect": true
+  }
+]
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:46:51.806Z] [DEBUG] [LiveViews][layout-change]: loading plugins
+    at at uc._refreshViews (plugin:system3-relay:65:12316)
+[2025-05-19T18:46:51.894Z] [DEBUG] [LiveCMPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Gd (plugin:system3-relay:39:53674)
+[2025-05-19T18:46:51.895Z] [DEBUG] [InvalidLinkPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Xd (plugin:system3-relay:41:6319)
+[2025-05-19T18:46:51.907Z] [DEBUG] [LiveViews][layout-change]: refresh completed in 109ms [LiveViews][layout-change]
+    at at uc._refreshViews (plugin:system3-relay:65:12378)
+[2025-05-19T18:46:53.821Z] [DEBUG] [[SharedDoc](/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Initiatives/Nueral Initiatives.md {
+  "status": "connected",
+  "intent": "connected"
+}
+    at at Lt.notifyListeners (plugin:system3-relay:25:10882)
+[2025-05-19T18:47:18.145Z] [LOG] [Live][Workspace]: file-open
+    at at eval (plugin:system3-relay:95:16284)
+[2025-05-19T18:47:18.146Z] [DEBUG] [LiveViews][file-open]: Refresh
+    at at uc._refreshViews (plugin:system3-relay:65:11454)
+[2025-05-19T18:47:18.148Z] [DEBUG] [LiveViews][file-open]: Releasing Views []
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:47:18.153Z] [DEBUG] [LiveViews][file-open]: Attached Views [
+  {
+    "type": "vs",
+    "file": "/Nueral Initiatives/Nueral Initiatives.md",
+    "canConnect": true
+  }
+]
+    at at n (plugin:system3-relay:65:11331)
+[2025-05-19T18:47:18.156Z] [DEBUG] [LiveViews][file-open]: loading plugins
+    at at uc._refreshViews (plugin:system3-relay:65:12316)
+[2025-05-19T18:47:18.312Z] [DEBUG] [LiveCMPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Gd (plugin:system3-relay:39:53674)
+[2025-05-19T18:47:18.413Z] [DEBUG] [InvalidLinkPluginValue][Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md]: created
+    at at new Xd (plugin:system3-relay:41:6319)
+[2025-05-19T18:47:18.453Z] [DEBUG] [LiveViews][file-open]: refresh completed in 306ms [LiveViews][file-open]
+    at at uc._refreshViews (plugin:system3-relay:65:12378)
+[2025-05-19T18:47:29.316Z] [LOG] [System 3][Relay][Vault]: Modify Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md
+    at at eval (plugin:system3-relay:95:17956)
+[2025-05-19T18:47:31.527Z] [LOG] [System 3][Relay][Vault]: Modify Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md
+    at at eval (plugin:system3-relay:95:17956)
+[2025-05-19T18:47:35.828Z] [LOG] [System 3][Relay][Vault]: Modify Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md
+    at at eval (plugin:system3-relay:95:17956)
+[2025-05-19T18:47:37.560Z] [LOG] [System 3][Relay][Vault]: Modify Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md
+    at at eval (plugin:system3-relay:95:17956)
+[2025-05-19T18:47:47.262Z] [DEBUG] [LiveTokenStore]: check and refresh tokens
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:47:47.266Z] [DEBUG] [LiveTokenStore]: Token Store Report:
+Expiry Margin: 5m
+Active Tokens:
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:5cd8cc08-8c82-4e5a-b147-d5b0d5e290fb (Archive/Templates/Nueral Templates): 0 attempts, (expires in 22s)
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c (Mission/Nueral): 0 attempts, (expires in 22s)
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c:doc:1c610748-6515-48c1-b950-1ab843441e34 (/Nueral Initiatives/Nueral Initiatives.md): 0 attempts, (expires in 16m)
+Stale Tokens:
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c:doc:58b191ee-0d37-495d-ad70-bacc7b97c2ab (/Nueral Docs/Rabat Rally Rampage/Rally Plan.md): 0 attempts, (expires in 22m)
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:c0f117b3-348b-4ffc-8365-9adb079c458c:doc:689b519a-0fd4-46d9-91bc-92f74f84d299 (/Nueral Priorities/Nueral Priorities.md): 0 attempts, (expires in 22m)
+Queue size: 0
+    at at Bc.log (plugin:system3-relay:76:78413)
+[2025-05-19T18:48:25.758Z] [LOG] [System 3][Relay][Vault]: Modify Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md
+    at at eval (plugin:system3-relay:95:17956)

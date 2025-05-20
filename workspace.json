@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "7e669c504ef47f99",
+        "id": "db86b1c5631a949e",
         "type": "tabs",
         "children": [
           {
-            "id": "ef8b35feb29b6fe4",
+            "id": "7b8c15f642cbcd3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nueral Initiatives"
+            }
+          },
+          {
+            "id": "dfd0bd46f7bf78e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,49 +36,35 @@
             }
           },
           {
-            "id": "07aade141b9021c8",
+            "id": "3be59dd0813961b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mission/Nueral/Nueral Members/Scott Fairnington.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Scott Fairnington"
-            }
-          },
-          {
-            "id": "c21e5fbd8d600b48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mission/Nueral/Nueral Priorities/Nueral Priorities.md",
+                "file": "Archive/Notepad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nueral Priorities"
+              "title": "Notepad"
             }
           },
           {
-            "id": "07078e8686a3f988",
+            "id": "5771dea870a778cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md",
+                "file": "Mission/Nueral/Nueral Docs/Stateside Schoolbus Showdown/Rally Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nueral Initiatives"
+              "title": "Rally Plan"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279
+    "width": 347
   },
   "right": {
     "id": "d64c5fb55f768002",
@@ -240,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 319
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,19 +260,32 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "07078e8686a3f988",
+  "active": "178067600c999beb",
   "lastOpenFiles": [
-    "Mission/Nueral/Nueral Members/Scott Fairnington.md",
-    "Mission/Mission.md",
+    "Mission/Nueral/Nueral Docs/Stateside Schoolbus Showdown/Rally Plan.md",
+    "Archive/Films - Movies - TV Shows.md",
     "Mission/Nueral/Nueral Initiatives/Nueral Initiatives.md",
+    "Mission/Mission.md",
+    "Archive/Notepad.md",
+    "Mission/Nueral/Nueral Docs/Stateside Schoolbus Showdown",
+    "Archive/Agenda.md",
+    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Rally Plan.md",
     "Mission/Nueral/Nueral Priorities/Nueral Priorities.md",
     "Mission/Personal/Personal Initiatives/Personal Initiatives.md",
-    "Archive/Agenda.md",
-    "Archive/Diary.md",
+    "Mission/Nueral/Nueral Docs/Inventory.md",
+    "Anthony Cooke - Fitness Plan.md",
     "Archive/Custom Checkboxes.md",
-    "Elddis Crusader Superstorm Touring Caravan.md",
-    "Mission/Nueral/Nueral Members/Cam Bloomfield.md",
+    "Mission/Nueral/Nueral Docs/Equipment Responsibility Declaration Form.md",
+    "Mission/Nueral/Nueral Members/Scott Fairnington.md",
+    "Mission/Nueral/Nueral Docs/Apps.md",
+    "Mission/Nueral/Nueral Docs/Nueral Passwords.kdbx",
     "Mission/Nueral/Nueral Members/Dan Fletcher.md",
+    "Mission/Nueral/Nueral Members/Cam Bloomfield.md",
+    "Archive/The Freedom Tour.md",
+    "Archive/Templates/Nueral Templates/Prioritization/Kano/Kano (L-1) - Dissatisfier - Header.md",
+    "Archive/Templates/Nueral Templates/Prioritization/Kano/Kano (L0) - Indifferent - With Info.md",
+    "Archive/Diary.md",
+    "Elddis Crusader Superstorm Touring Caravan.md",
     "Live Event Ideas.md",
     "Mission/Nueral/Nueral Docs/Expenditures.md",
     "Nueral Templates/Agile Artifacts/Agile - Artifact Parent Link.md",
@@ -284,19 +297,6 @@
     "Nueral Templates/Prioritization/MoSCoW",
     "Nueral Templates/Prioritization/Kano",
     "Nueral Templates/Members/Templates",
-    "Nueral Templates/Members/Active/Scott Fairnington",
-    "Nueral Templates/Members/Active/Dan Fletcher",
-    "Nueral Templates/Members/Active/Cam Bloomfield",
-    "Nueral/Nueral Docs/Rabat Rally Rampage/Notational Conventions.md",
-    "Nueral/Nueral Docs/Rabat Rally Rampage/Glendale Bandits - Sump Oil Episode Script.md",
-    "Nueral/Nueral Docs/Rabat Rally Rampage/Glendale Bandits - Chimney Pots Episode Script.md",
-    "Nueral/Nueral Docs/Rabat Rally Rampage/Expenditures.md",
-    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Participants - Initial Sales Call.md",
-    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Participants - Post-Payment Confirmation Call Script.md",
-    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Rally Introductory Briefing.md",
-    "Mission/Nueral/Nueral Docs/Notational Conventions.md",
-    "Mission/Nueral/Nueral Docs/Workflow States.md",
-    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Rally Plan.md",
-    "Mission/Nueral/Nueral Docs/Rabat Rally Rampage/Rally Team.md"
+    "Nueral Templates/Members/Active/Scott Fairnington"
   ]
 }

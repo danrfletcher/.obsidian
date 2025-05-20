@@ -13,7 +13,7 @@
         "audio": true,
         "videos": true,
         "pdfs": true,
-        "otherTypes": false
+        "otherTypes": true
       }
     },
     {
@@ -35,7 +35,7 @@
   "enableDeltaLogging": false,
   "enableHTTPSync": false,
   "enableSyncMenu": true,
-  "enableDocumentServer": false,
+  "enableDocumentServer": true,
   "enableDocumentHistory": false,
   "enableEditorTweens": false,
   "enableSyncModal": false,

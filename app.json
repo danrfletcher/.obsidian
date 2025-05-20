@@ -37,5 +37,6 @@
     "Archive/"
   ],
   "newFileLocation": "folder",
-  "newFileFolderPath": "Adhoc"
+  "newFileFolderPath": "Adhoc",
+  "showUnsupportedFiles": true
 }
