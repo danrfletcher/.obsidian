@@ -27,6 +27,30 @@
         "pdfs": true,
         "otherTypes": false
       }
+    },
+    {
+      "path": "Archive",
+      "guid": "d5ca52ff-7b31-4fb3-af79-591d26ad8d94",
+      "relay": "3377c0a3-eb48-40eb-8838-97516093a88a",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "Mission",
+      "guid": "4f73da29-1d13-449e-bfff-f7fcb4fa721f",
+      "relay": "3377c0a3-eb48-40eb-8838-97516093a88a",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
     }
   ],
   "enableUpdateYDocFromDiskBuffer": false,
