@@ -6,44 +6,20 @@
   "sharedFolders": [
     {
       "path": "Mission/Nueral",
-      "guid": "c0f117b3-348b-4ffc-8365-9adb079c458c",
+      "guid": "838448e3-fb3d-430f-a0dd-381f196cdc0c",
       "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
       "sync": {
         "images": true,
         "audio": true,
         "videos": true,
         "pdfs": true,
-        "otherTypes": true
+        "otherTypes": false
       }
     },
     {
       "path": "Archive/Templates/Nueral Templates",
-      "guid": "5cd8cc08-8c82-4e5a-b147-d5b0d5e290fb",
+      "guid": "f069bda1-1597-413f-9f4b-bd6362d811b9",
       "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
-      "sync": {
-        "images": true,
-        "audio": true,
-        "videos": true,
-        "pdfs": true,
-        "otherTypes": false
-      }
-    },
-    {
-      "path": "Archive",
-      "guid": "d5ca52ff-7b31-4fb3-af79-591d26ad8d94",
-      "relay": "3377c0a3-eb48-40eb-8838-97516093a88a",
-      "sync": {
-        "images": true,
-        "audio": true,
-        "videos": true,
-        "pdfs": true,
-        "otherTypes": false
-      }
-    },
-    {
-      "path": "Mission",
-      "guid": "4f73da29-1d13-449e-bfff-f7fcb4fa721f",
-      "relay": "3377c0a3-eb48-40eb-8838-97516093a88a",
       "sync": {
         "images": true,
         "audio": true,
@@ -68,5 +44,5 @@
   "enableAttachmentSync": true,
   "enableNetworkLogging": false,
   "enableCanvasSync": false,
-  "debugging": false
+  "debugging": true
 }
