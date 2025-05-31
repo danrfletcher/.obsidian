@@ -32,6 +32,19 @@
       "excludeFromFolderOverview": false,
       "string": "",
       "hideInSettings": false
+    },
+    {
+      "type": "folder",
+      "path": "Mission/Personal/Personal Docs/Dating",
+      "subFolders": true,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 2,
+      "excludeFromFolderOverview": false,
+      "string": "",
+      "hideInSettings": false
     }
   ],
   "whitelistFolders": [],

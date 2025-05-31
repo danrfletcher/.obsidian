@@ -51,7 +51,8 @@
     "Nueral Templates/Agile Artifacts/Agile - Acceptance Criteria.md",
     "Nueral Templates/Agile Artifacts/Agile - KPI.md",
     "Nueral Templates/Agile Artifacts/Agile - OKR.md",
-    "Nueral Templates/Deadline.md"
+    "Nueral Templates/Deadline.md",
+    "Nueral Templates/Workflows/Metadata/Link OKR.md"
   ],
   "templaterFiles": [
     "⛔ Set task as Impediment.md",

@@ -13,9 +13,9 @@
   "fileMenu": [],
   "leftRibbon": [
     {
-      "id": "obsidian-git:view-history-on-github",
-      "icon": "lucide-history",
-      "name": "Show File History",
+      "id": "session-notes:open-temp-note",
+      "icon": "lucide-notebook-pen",
+      "name": "Open Temporary Note",
       "mode": "any"
     }
   ],

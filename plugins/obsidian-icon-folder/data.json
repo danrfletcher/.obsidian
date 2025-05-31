@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiStamp",
       "LiFolders",
       "LiRocket",
       "🟢",
-      "💡",
-      "💸"
+      "💡"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -35,5 +35,6 @@
     "useInternalPlugins": false
   },
   "Mission": "LiRocket",
-  "Archive": "LiFolders"
+  "Archive": "LiFolders",
+  "Templates": "LiStamp"
 }

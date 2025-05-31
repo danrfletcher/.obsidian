@@ -17,9 +17,21 @@
       }
     },
     {
-      "path": "Archive/Templates/Nueral Templates",
+      "path": "Templates/Nueral Templates",
       "guid": "f069bda1-1597-413f-9f4b-bd6362d811b9",
       "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "Mission/Personal",
+      "guid": "71dc61f6-827e-40e2-8dac-81bdc10c1889",
+      "relay": "fabc29d6-1db5-4088-a5d5-3d46272ec078",
       "sync": {
         "images": true,
         "audio": true,
