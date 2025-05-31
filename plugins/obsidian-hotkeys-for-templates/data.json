@@ -49,7 +49,8 @@
     "Nueral Templates/Prioritization/NALAp/Later.md",
     "Nueral Templates/Prioritization/MoSCoW/MoSCoW - Could Have - Header.md",
     "Nueral Templates/Prioritization/MoSCoW/MoSCoW - Should Have - Header.md",
-    "Nueral Templates/Prioritization/MoSCoW/MoSCoW - Won't Have - Header.md"
+    "Nueral Templates/Prioritization/MoSCoW/MoSCoW - Won't Have - Header.md",
+    "Nueral Templates/Agile Artifacts/Agile - Epic.md"
   ],
   "templaterFiles": [
     "⛔ Set task as Impediment.md",
