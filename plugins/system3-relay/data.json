@@ -52,9 +52,9 @@
   "enableEditorTweens": false,
   "enableSyncModal": false,
   "enableDesyncPill": false,
-  "enableAutomaticUpdatesOption": false,
   "enableAttachmentSync": true,
   "enableNetworkLogging": false,
   "enableCanvasSync": false,
-  "debugging": true
+  "debugging": true,
+  "enableAutomaticUpdatesOption": false
 }

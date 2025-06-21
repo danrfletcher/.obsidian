@@ -18634,3 +18634,1658 @@ s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:f069bda1-1597-413f-
 s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:f069bda1-1597-413f-9f4b-bd6362d811b9:doc:6706bb0d-95f8-4f18-a4c0-61965240f7e7 (/Workflows/Dates/Deadline.md): 0 attempts, (expires in 11m)
 Queue size: 0
     at at Wc.log (plugin:system3-relay:76:88500)
+[2025-06-21T04:46:31.791Z] [DEBUG] [LiveTokenStore]: check and refresh tokens
+    at checkAndRefreshTokens@
+[2025-06-21T04:46:31.795Z] [DEBUG] [LiveTokenStore]: Token Store Report:
+Expiry Margin: 5m
+Active Tokens:
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:838448e3-fb3d-430f-a0dd-381f196cdc0c:doc:06a3ff33-7108-4267-96b1-9d44c4360076 (/Nueral Projects/Nueral Initiatives/Nueral Initiatives.md): 0 attempts, (expires in 17m)
+Stale Tokens:
+Queue size: 0
+    at checkAndRefreshTokens@
+[2025-06-21T04:46:31.898Z] [DEBUG] [[SharedFile](Templates/Nueral Templates)]: [Provider State] Templates/Nueral Templates {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:31.904Z] [DEBUG] [[SharedDoc](/Nueral Projects/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Projects/Nueral Initiatives/Nueral Initiatives.md {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:31.905Z] [DEBUG] [[SharedFile](Mission/Personal)]: [Provider State] Mission/Personal {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:31.906Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:32.006Z] [DEBUG] [[SharedFile](Templates/Nueral Templates)]: [Provider State] Templates/Nueral Templates {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:32.012Z] [DEBUG] [[SharedDoc](/Nueral Projects/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Projects/Nueral Initiatives/Nueral Initiatives.md {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:32.013Z] [DEBUG] [[SharedFile](Mission/Personal)]: [Provider State] Mission/Personal {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:32.016Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:32.440Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/realtime {
+  "method": "POST",
+  "body": {
+    "clientId": "HMSx75TeSxBodjx0d4rpDtjQHCudC12gMTcg1WbG",
+    "subscriptions": [
+      "relays/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay_invitations_via_relay%2Cshared_folders_via_relay%2Cshared_folders_via_relay.creator%2Csubscriptions_via_relay%2Csubscriptions_via_relay.relay%2Csubscriptions_via_relay.relay.storage_quota%2Ccreator%22%7D%7D",
+      "relay_invitations/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay%22%7D%7D",
+      "providers/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22%22%7D%7D",
+      "relay_roles/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22user%2Crelay%22%7D%7D",
+      "shared_folders/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay%2Ccreator%22%7D%7D",
+      "subscriptions/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22user%2Crelay%22%7D%7D"
+    ]
+  },
+  "query": {},
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:33.779Z] [DEBUG] [[SharedFile](Mission/Personal)]: [Provider State] Mission/Personal {
+  "status": "connected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:33.784Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "connected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:33.789Z] [DEBUG] [[SharedFile](Templates/Nueral Templates)]: [Provider State] Templates/Nueral Templates {
+  "status": "connected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:33.975Z] [DEBUG] [[SharedDoc](/Nueral Projects/Nueral Initiatives/Nueral Initiatives.md)]: [Provider State] /Nueral Projects/Nueral Initiatives/Nueral Initiatives.md {
+  "status": "connected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:42.702Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/auth-refresh {
+  "method": "POST",
+  "query": {},
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.702Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/records/cghkrvlsep468u6 {
+  "method": "GET",
+  "query": {},
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.703Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "filter": "id=\"cghkrvlsep468u6\"",
+    "expand": "relay_roles_via_user,relay_roles_via_user.relay,relay_roles_via_user.relay.storage_quota,relay_roles_via_user.role"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.703Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_roles/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.704Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_invitations/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.704Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/shared_folders/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,creator"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.704Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/subscriptions/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.726Z] [DEBUG] [postie]: send zl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:46:42.726Z] [DEBUG] [postie]: send zl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:46:42.726Z] [DEBUG] [postie]: send zl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:46:42.726Z] [DEBUG] [postie]: send zl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:46:42.726Z] [DEBUG] [postie]: send ef ()=>{let n=this.updateManager.getNewRelease();n?(this.removeCommand("update-plugin"),this.addCommand({id:"update-plugin",name:`Update Plugin (${this.version} \u2192 ${n.tag_name})`,callback:async()=>{await this.updateManager.installUpdate(n)}}),this.log(`Update available: v${this.version} \u2192 ${n.tag_name}`)):this.removeCommand("update-plugin")}
+    at @
+[2025-06-21T04:46:42.726Z] [DEBUG] [postie]: send yr a=>{let i=!1;this.items().forEach(l=>{let c=a.find(u=>u.guid==l.guid);l.remote!=c&&(i=!0),l.remote=c}),i&&this.update()}
+    at @
+[2025-06-21T04:46:42.727Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "filter": "id=\"cghkrvlsep468u6\"",
+    "expand": "relay_roles_via_user,relay_roles_via_user.relay,relay_roles_via_user.relay.storage_quota,relay_roles_via_user.role"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.727Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_roles/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.727Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_invitations/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.727Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/shared_folders/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,creator"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.727Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/subscriptions/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:42.727Z] [DEBUG] [postie]: send Ac ()=>{this.login()}
+    at @
+[2025-06-21T04:46:43.512Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/realtime {
+  "method": "POST",
+  "body": {
+    "clientId": "lhvItl9J71teWiZftc5un8AIMvHvMTDGTPUcDfV5",
+    "subscriptions": [
+      "relays/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay_invitations_via_relay%2Cshared_folders_via_relay%2Cshared_folders_via_relay.creator%2Csubscriptions_via_relay%2Csubscriptions_via_relay.relay%2Csubscriptions_via_relay.relay.storage_quota%2Ccreator%22%7D%7D",
+      "relay_invitations/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay%22%7D%7D",
+      "relay_roles/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22user%2Crelay%22%7D%7D",
+      "shared_folders/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay%2Ccreator%22%7D%7D",
+      "subscriptions/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22user%2Crelay%22%7D%7D"
+    ]
+  },
+  "query": {},
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:46:43.520Z] [DEBUG] [postie]: send yr a=>{let i=!1;this.items().forEach(l=>{let c=a.find(u=>u.guid==l.guid);l.remote!=c&&(i=!0),l.remote=c}),i&&this.update()}
+    at @
+[2025-06-21T04:46:43.538Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at remote@
+[2025-06-21T04:46:43.539Z] [LOG] [[SharedFile](Mission/Nueral)]: get provider token
+    at getProviderToken@
+[2025-06-21T04:46:43.539Z] [DEBUG] [LiveTokenStore]: getting token Mission/Nueral
+    at @
+[2025-06-21T04:46:43.539Z] [DEBUG] [TokenStore][Refresh]: s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:838448e3-fb3d-430f-a0dd-381f196cdc0c
+    at YA@
+[2025-06-21T04:46:43.540Z] [DEBUG] [[SharedFile](Templates/Nueral Templates)]: [Provider State] Templates/Nueral Templates {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at remote@
+[2025-06-21T04:46:43.540Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: get provider token
+    at getProviderToken@
+[2025-06-21T04:46:43.540Z] [DEBUG] [LiveTokenStore]: getting token Templates/Nueral Templates
+    at @
+[2025-06-21T04:46:43.540Z] [DEBUG] [TokenStore][Refresh]: s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:f069bda1-1597-413f-9f4b-bd6362d811b9
+    at YA@
+[2025-06-21T04:46:43.541Z] [DEBUG] [[SharedFile](Mission/Personal)]: [Provider State] Mission/Personal {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at remote@
+[2025-06-21T04:46:43.541Z] [LOG] [[SharedFile](Mission/Personal)]: get provider token
+    at getProviderToken@
+[2025-06-21T04:46:43.541Z] [DEBUG] [LiveTokenStore]: getting token Mission/Personal
+    at @
+[2025-06-21T04:46:43.541Z] [DEBUG] [TokenStore][Refresh]: s3rn:relay:relay:fabc29d6-1db5-4088-a5d5-3d46272ec078:folder:71dc61f6-827e-40e2-8dac-81bdc10c1889
+    at YA@
+[2025-06-21T04:46:43.541Z] [DEBUG] [LiveViews][[Shared Folders]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:43.541Z] [DEBUG] [LiveTokenStore]: starting
+    at start@
+[2025-06-21T04:46:43.542Z] [DEBUG] [LiveTokenStore]: check and refresh tokens
+    at checkAndRefreshTokens@
+[2025-06-21T04:46:43.542Z] [DEBUG] [LiveTokenStore]: Token Store Report:
+Expiry Margin: 5m
+Active Tokens:
+Stale Tokens:
+s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:838448e3-fb3d-430f-a0dd-381f196cdc0c:doc:06a3ff33-7108-4267-96b1-9d44c4360076 (/Nueral Projects/Nueral Initiatives/Nueral Initiatives.md): 0 attempts, (expires in 17m)
+Queue size: 0
+    at checkAndRefreshTokens@
+[2025-06-21T04:46:43.547Z] [WARN] [System 3][Relay]: Webviewer plugin not found or not initialized
+    at setup@
+[2025-06-21T04:46:43.547Z] [DEBUG] [ic]: starting
+    at setup@
+[2025-06-21T04:46:43.548Z] [DEBUG] [LiveViews][[Shared Folders]]: Releasing Views []
+    at @
+[2025-06-21T04:46:43.548Z] [DEBUG] [LiveViews][init]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:43.548Z] [DEBUG] [LiveViews][init]: Releasing Views []
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send zl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send zl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send yr A=>{this.remote=A.find(O=>O.guid==this.guid)}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send Kc s=>{s.guid===this.relayId&&(this.server=s.provider)}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send zl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send zl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send yr A=>{this.remote=A.find(O=>O.guid==this.guid)}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send Kc s=>{s.guid===this.relayId&&(this.server=s.provider)}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send zl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send zl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send yr A=>{this.remote=A.find(O=>O.guid==this.guid)}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send Kc s=>{s.guid===this.relayId&&(this.server=s.provider)}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [LiveViews][[Shared Folders]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send jl ()=>{this.refresh("[Shared Folders]"),this.folderListeners.forEach((l,c)=>{this.sharedFolders.has(c)||(l(),this.folderListeners.delete(c))}),this.sharedFolders.forEach(l=>{this.folderListeners.has(l)||this.folderListeners.set(l,i(l))})}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send ks ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send ks ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:46:43.551Z] [DEBUG] [postie]: send yr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:46:43.552Z] [DEBUG] [postie]: send jl ()=>{this.sharedFolders.forEach(n=>{Qy([yo.enableDocumentStatus],()=>{this.offDocumentListeners.get(n)||this.offDocumentListeners.set(n,n.fset.on(()=>{this.refresh()}))}),n.whenReady().then(()=>{this.refresh()}),this.unsubscribes.push(n.syncSettingsManager.subscribe(a=>{this.quickRefresh()})),this.unsubscribes.push(n.subscribe(this,()=>{this.quickRefresh()}))}),this.refresh()}
+    at @
+[2025-06-21T04:46:43.552Z] [DEBUG] [LiveViews][[Shared Folders]]: Releasing Views []
+    at @
+[2025-06-21T04:46:43.670Z] [LOG] [Nl]: type registry change
+    at deliverImmediate@
+[2025-06-21T04:46:43.671Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.672Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.672Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.672Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.672Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.672Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.672Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.673Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.673Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.673Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.673Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.673Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.673Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.673Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.673Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.673Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.673Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.674Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.674Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.674Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.674Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.674Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.674Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.674Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.675Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.675Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.675Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.675Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.675Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.675Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:43.676Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:43.678Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Releasing Views []
+    at @
+[2025-06-21T04:46:43.679Z] [LOG] [Nl]: type registry change
+    at deliver@
+[2025-06-21T04:46:43.679Z] [DEBUG] [postie]: send zu ()=>{this.log("type registry change"),this.notifyListeners()}
+    at @
+[2025-06-21T04:46:43.679Z] [DEBUG] [postie]: send Nl async()=>{await this.syncFileTree(this.syncStore)}
+    at @
+[2025-06-21T04:46:43.708Z] [LOG] [Live][Workspace]: file-open
+    at @capacitor://localhost/app.js:1:759836
+[2025-06-21T04:46:43.708Z] [DEBUG] [LiveViews][file-open]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:43.708Z] [DEBUG] [LiveViews][file-open]: Releasing Views []
+    at @
+[2025-06-21T04:46:43.716Z] [LOG] [Live][Workspace]: layout-change
+    at @capacitor://localhost/app.js:1:759836
+[2025-06-21T04:46:43.716Z] [DEBUG] [LiveViews][layout-change]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:43.716Z] [DEBUG] [LiveViews][layout-change]: Releasing Views []
+    at @
+[2025-06-21T04:46:43.842Z] [LOG] [[SharedFile](Mission/Personal)]: Token Refreshed: setting new provider url, wss://y-sweet.net/p/toDc4mWLpGi8hpDoEnw/doc/ws/fabc29d6-1db5-4088-a5d5-3d46272ec078-71dc61f6-827e-40e2-8dac-81bdc10c1889?token=[REDACTED]
+    at @
+[2025-06-21T04:46:43.843Z] [DEBUG] [[SharedFile](Mission/Personal)]: [Provider State] Mission/Personal {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:43.843Z] [DEBUG] [[SharedFile](Mission/Personal)]: [Provider State] Mission/Personal {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:43.844Z] [LOG] [Nt]: applying server flags {
+  "enableEditorTweens": false,
+  "enableSyncMenu": true,
+  "enableAttachmentSync": true,
+  "enableDocumentServer": true
+}
+    at applyServerFlags@
+[2025-06-21T04:46:43.848Z] [LOG] [Live][Workspace]: layout-change
+    at @capacitor://localhost/app.js:1:759836
+[2025-06-21T04:46:43.848Z] [DEBUG] [LiveViews][layout-change]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:43.849Z] [DEBUG] [LiveViews][layout-change]: Releasing Views []
+    at @
+[2025-06-21T04:46:43.849Z] [DEBUG] [LiveViews][[Docset]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:43.849Z] [DEBUG] [postie]: send od ()=>{this.refresh("[Docset]")}
+    at @
+[2025-06-21T04:46:43.849Z] [DEBUG] [LiveViews][[Docset]]: Releasing Views []
+    at @
+[2025-06-21T04:46:43.887Z] [LOG] [Live][Workspace]: layout-change
+    at @capacitor://localhost/app.js:1:759836
+[2025-06-21T04:46:43.888Z] [DEBUG] [LiveViews][layout-change]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:43.888Z] [DEBUG] [LiveViews][layout-change]: Releasing Views []
+    at @
+[2025-06-21T04:46:43.939Z] [DEBUG] [ef]: Fetching latest release from: https://api.github.com/repos/No-Instructions/Relay/releases/latest
+    at fetchLatestRelease@
+[2025-06-21T04:46:44.044Z] [DEBUG] [ef]: Fetching https://raw.githubusercontent.com/No-Instructions/Relay/main/manifest.json
+    at fetchRepoManifest@
+[2025-06-21T04:46:44.076Z] [LOG] [Nl]: type registry change
+    at deliverImmediate@
+[2025-06-21T04:46:44.077Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.078Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.079Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.079Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.079Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.079Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.080Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.080Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.080Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.080Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.081Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.082Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.083Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.084Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.084Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.084Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.084Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.084Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.084Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.084Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.084Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.084Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.085Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:44.087Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Releasing Views []
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [Nl]: type registry change
+    at deliverImmediate@
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.088Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.089Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.089Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.089Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:46:44.089Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:44.090Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Releasing Views []
+    at @
+[2025-06-21T04:46:44.095Z] [DEBUG] [postie]: send ef ()=>{let n=this.updateManager.getNewRelease();n?(this.removeCommand("update-plugin"),this.addCommand({id:"update-plugin",name:`Update Plugin (${this.version} \u2192 ${n.tag_name})`,callback:async()=>{await this.updateManager.installUpdate(n)}}),this.log(`Update available: v${this.version} \u2192 ${n.tag_name}`)):this.removeCommand("update-plugin")}
+    at @
+[2025-06-21T04:46:44.095Z] [LOG] [Nl]: type registry change
+    at deliver@
+[2025-06-21T04:46:44.095Z] [DEBUG] [postie]: send zu ()=>{this.log("type registry change"),this.notifyListeners()}
+    at @
+[2025-06-21T04:46:44.096Z] [DEBUG] [postie]: send Nl async()=>{await this.syncFileTree(this.syncStore)}
+    at @
+[2025-06-21T04:46:44.096Z] [LOG] [Nl]: type registry change
+    at deliver@
+[2025-06-21T04:46:44.096Z] [DEBUG] [postie]: send zu ()=>{this.log("type registry change"),this.notifyListeners()}
+    at @
+[2025-06-21T04:46:44.096Z] [DEBUG] [postie]: send Nl async()=>{await this.syncFileTree(this.syncStore)}
+    at @
+[2025-06-21T04:46:44.373Z] [DEBUG] [LiveViews][[Docset]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:44.373Z] [DEBUG] [postie]: send od ()=>{this.refresh("[Docset]")}
+    at @
+[2025-06-21T04:46:44.373Z] [DEBUG] [postie]: send od ()=>{this.refresh("[Docset]")}
+    at @
+[2025-06-21T04:46:44.373Z] [DEBUG] [LiveViews][[Docset]]: Releasing Views []
+    at @
+[2025-06-21T04:46:44.373Z] [DEBUG] [LiveViews][[Docset]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:44.373Z] [DEBUG] [LiveViews][[Docset]]: Releasing Views []
+    at @
+[2025-06-21T04:46:44.477Z] [DEBUG] [[SharedFile](Mission/Personal)]: [Provider State] Mission/Personal {
+  "status": "connected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:44.509Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: Token Refreshed: setting new provider url, wss://y-sweet.net/p/toDc4mWLpGi8hpDoEnw/doc/ws/cdd5bbe5-7a36-42f4-8107-28693ad3e955-f069bda1-1597-413f-9f4b-bd6362d811b9?token=[REDACTED]
+    at @
+[2025-06-21T04:46:44.509Z] [DEBUG] [[SharedFile](Templates/Nueral Templates)]: [Provider State] Templates/Nueral Templates {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:44.510Z] [DEBUG] [[SharedFile](Templates/Nueral Templates)]: [Provider State] Templates/Nueral Templates {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:44.511Z] [LOG] [[SharedFile](Mission/Nueral)]: Token Refreshed: setting new provider url, wss://y-sweet.net/p/toDc4mWLpGi8hpDoEnw/doc/ws/cdd5bbe5-7a36-42f4-8107-28693ad3e955-838448e3-fb3d-430f-a0dd-381f196cdc0c?token=[REDACTED]
+    at @
+[2025-06-21T04:46:44.511Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:44.511Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:44.687Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.687Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.687Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.688Z] [DEBUG] [postie]: send yr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:46:44.736Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.736Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.736Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.737Z] [DEBUG] [postie]: send yr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:46:44.752Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "connected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:44.834Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.834Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.834Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.835Z] [DEBUG] [postie]: send yr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:46:44.847Z] [DEBUG] [[SharedFile](Templates/Nueral Templates)]: [Provider State] Templates/Nueral Templates {
+  "status": "connected",
+  "intent": "connected"
+}
+    at @
+[2025-06-21T04:46:44.849Z] [DEBUG] [ic]: fallback to websocket sync
+    at syncDocument@
+[2025-06-21T04:46:44.880Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.880Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.880Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.881Z] [DEBUG] [postie]: send ks ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:46:44.881Z] [DEBUG] [postie]: send yr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:46:44.941Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.941Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.941Z] [DEBUG] [postie]: send yr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:46:44.942Z] [DEBUG] [postie]: send yr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:46:45.038Z] [DEBUG] [postie]: send ks ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:46:47.484Z] [LOG] [Live][Workspace]: layout-change
+    at @capacitor://localhost/app.js:1:759836
+[2025-06-21T04:46:47.485Z] [DEBUG] [LiveViews][layout-change]: Refresh
+    at _refreshViews@
+[2025-06-21T04:46:47.485Z] [DEBUG] [LiveViews][layout-change]: Releasing Views []
+    at @
+[2025-06-21T04:47:23.345Z] [LOG] [Live][Workspace]: layout-change
+    at @capacitor://localhost/app.js:1:759836
+[2025-06-21T04:47:23.345Z] [DEBUG] [LiveViews][layout-change]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:23.345Z] [DEBUG] [LiveViews][layout-change]: Releasing Views []
+    at @
+[2025-06-21T04:47:23.430Z] [LOG] [Live][Workspace]: layout-change
+    at @capacitor://localhost/app.js:1:759836
+[2025-06-21T04:47:23.430Z] [DEBUG] [LiveViews][layout-change]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:23.430Z] [DEBUG] [LiveViews][layout-change]: Releasing Views []
+    at @
+[2025-06-21T04:47:23.755Z] [DEBUG] [LiveTokenStore]: stopping
+    at stop@
+[2025-06-21T04:47:23.855Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/auth-refresh {
+  "method": "POST",
+  "query": {},
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.855Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/records/cghkrvlsep468u6 {
+  "method": "GET",
+  "query": {},
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.856Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "filter": "id=\"cghkrvlsep468u6\"",
+    "expand": "relay_roles_via_user,relay_roles_via_user.relay,relay_roles_via_user.relay.storage_quota,relay_roles_via_user.role"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.856Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_roles/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.856Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/providers/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.856Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_invitations/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.856Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/shared_folders/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,creator"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.856Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/subscriptions/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.859Z] [LOG] [[SharedFile](Mission/Nueral)]: get provider token
+    at getProviderToken@
+[2025-06-21T04:47:23.860Z] [DEBUG] [LiveTokenStore]: getting token Mission/Nueral
+    at @
+[2025-06-21T04:47:23.860Z] [DEBUG] [TokenStore][Refresh]: s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:838448e3-fb3d-430f-a0dd-381f196cdc0c
+    at lM@
+[2025-06-21T04:47:23.861Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: get provider token
+    at getProviderToken@
+[2025-06-21T04:47:23.861Z] [DEBUG] [LiveTokenStore]: getting token Templates/Nueral Templates
+    at @
+[2025-06-21T04:47:23.861Z] [DEBUG] [TokenStore][Refresh]: s3rn:relay:relay:cdd5bbe5-7a36-42f4-8107-28693ad3e955:folder:f069bda1-1597-413f-9f4b-bd6362d811b9
+    at lM@
+[2025-06-21T04:47:23.861Z] [LOG] [[SharedFile](Mission/Personal)]: get provider token
+    at getProviderToken@
+[2025-06-21T04:47:23.861Z] [DEBUG] [LiveTokenStore]: getting token Mission/Personal
+    at @
+[2025-06-21T04:47:23.861Z] [DEBUG] [TokenStore][Refresh]: s3rn:relay:relay:fabc29d6-1db5-4088-a5d5-3d46272ec078:folder:71dc61f6-827e-40e2-8dac-81bdc10c1889
+    at lM@
+[2025-06-21T04:47:23.862Z] [DEBUG] [LiveViews][[Shared Folders]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:23.865Z] [DEBUG] [LiveTokenStore]: starting
+    at start@
+[2025-06-21T04:47:23.865Z] [DEBUG] [LiveTokenStore]: check and refresh tokens
+    at checkAndRefreshTokens@
+[2025-06-21T04:47:23.865Z] [DEBUG] [LiveTokenStore]: Token Store Report:
+Expiry Margin: 5m
+Active Tokens:
+Stale Tokens:
+Queue size: 0
+    at checkAndRefreshTokens@
+[2025-06-21T04:47:23.870Z] [WARN] [System 3][Relay]: Webviewer plugin not found or not initialized
+    at setup@
+[2025-06-21T04:47:23.870Z] [DEBUG] [lc]: starting
+    at setup@
+[2025-06-21T04:47:23.872Z] [DEBUG] [LiveViews][[Shared Folders]]: Releasing Views []
+    at @
+[2025-06-21T04:47:23.872Z] [DEBUG] [LiveViews][init]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:23.872Z] [DEBUG] [LiveViews][init]: Releasing Views []
+    at @
+[2025-06-21T04:47:23.876Z] [LOG] [Yl]: Saving settings to disk: {
+  "release": {
+    "channel": "stable",
+    "automaticUpdates": false
+  },
+  "sharedFolders": [
+    {
+      "path": "Mission/Nueral",
+      "guid": "838448e3-fb3d-430f-a0dd-381f196cdc0c",
+      "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "Templates/Nueral Templates",
+      "guid": "f069bda1-1597-413f-9f4b-bd6362d811b9",
+      "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "Mission/Personal",
+      "guid": "71dc61f6-827e-40e2-8dac-81bdc10c1889",
+      "relay": "fabc29d6-1db5-4088-a5d5-3d46272ec078",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    }
+  ],
+  "enableUpdateYDocFromDiskBuffer": false,
+  "enableDocumentStatus": false,
+  "enableNewLinkFormat": false,
+  "enableDeltaLogging": false,
+  "enableHTTPSync": false,
+  "enableSyncMenu": true,
+  "enableDocumentServer": true,
+  "enableDocumentHistory": false,
+  "enableEditorTweens": false,
+  "enableSyncModal": false,
+  "enableDesyncPill": false,
+  "enableAttachmentSync": true,
+  "enableNetworkLogging": false,
+  "enableCanvasSync": false,
+  "debugging": true,
+  "enableAutomaticUpdatesOption": false
+}
+    at save@
+[2025-06-21T04:47:23.876Z] [LOG] [Yl]: Saving settings to disk: {
+  "release": {
+    "channel": "stable",
+    "automaticUpdates": false
+  },
+  "sharedFolders": [
+    {
+      "path": "Mission/Nueral",
+      "guid": "838448e3-fb3d-430f-a0dd-381f196cdc0c",
+      "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "Templates/Nueral Templates",
+      "guid": "f069bda1-1597-413f-9f4b-bd6362d811b9",
+      "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "Mission/Personal",
+      "guid": "71dc61f6-827e-40e2-8dac-81bdc10c1889",
+      "relay": "fabc29d6-1db5-4088-a5d5-3d46272ec078",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    }
+  ],
+  "enableUpdateYDocFromDiskBuffer": false,
+  "enableDocumentStatus": false,
+  "enableNewLinkFormat": false,
+  "enableDeltaLogging": false,
+  "enableHTTPSync": false,
+  "enableSyncMenu": true,
+  "enableDocumentServer": true,
+  "enableDocumentHistory": false,
+  "enableEditorTweens": false,
+  "enableSyncModal": false,
+  "enableDesyncPill": false,
+  "enableAttachmentSync": true,
+  "enableNetworkLogging": false,
+  "enableCanvasSync": false,
+  "debugging": true,
+  "enableAutomaticUpdatesOption": false
+}
+    at save@
+[2025-06-21T04:47:23.877Z] [DEBUG] [postie]: send Yl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:47:23.877Z] [DEBUG] [postie]: send Yl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:47:23.877Z] [DEBUG] [postie]: send Yl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:47:23.877Z] [DEBUG] [postie]: send Yl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:47:23.877Z] [DEBUG] [postie]: send nf ()=>{let n=this.updateManager.getNewRelease();n?(this.removeCommand("update-plugin"),this.addCommand({id:"update-plugin",name:`Update Plugin (${this.version} \u2192 ${n.tag_name})`,callback:async()=>{await this.updateManager.installUpdate(n)}}),this.log(`Update available: v${this.version} \u2192 ${n.tag_name}`)):this.removeCommand("update-plugin")}
+    at @
+[2025-06-21T04:47:23.877Z] [DEBUG] [postie]: send fr a=>{let i=!1;this.items().forEach(l=>{let c=a.find(u=>u.guid==l.guid);l.remote!=c&&(i=!0),l.remote=c}),i&&this.update()}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/users/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "filter": "id=\"cghkrvlsep468u6\"",
+    "expand": "relay_roles_via_user,relay_roles_via_user.relay,relay_roles_via_user.relay.storage_quota,relay_roles_via_user.role"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_roles/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/providers/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/relay_invitations/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/shared_folders/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,creator"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/collections/subscriptions/records {
+  "method": "GET",
+  "query": {
+    "page": 1,
+    "perPage": 500,
+    "skipTotal": 1,
+    "expand": "relay,user"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [postie]: send Uc ()=>{this.login()}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [postie]: send Yl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [postie]: send Yl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [postie]: send fr A=>{this.remote=A.find(O=>O.guid==this.guid)}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [postie]: send Yl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:47:23.878Z] [DEBUG] [postie]: send Yl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send fr A=>{this.remote=A.find(O=>O.guid==this.guid)}
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send Yl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send Yl ()=>{let t=this.getNestedValue(this.settings.get());this.lastKnown===void 0&&t===void 0||JSON.stringify(this.lastKnown)!==JSON.stringify(t)&&(this.lastKnown=t,this.notifyListeners())}
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send fr A=>{this.remote=A.find(O=>O.guid==this.guid)}
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [LiveViews][[Shared Folders]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send Xl ()=>{this.refresh("[Shared Folders]"),this.folderListeners.forEach((l,c)=>{this.sharedFolders.has(c)||(l(),this.folderListeners.delete(c))}),this.sharedFolders.forEach(l=>{this.folderListeners.has(l)||this.folderListeners.set(l,i(l))})}
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send Ss ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send Ss ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:47:23.879Z] [DEBUG] [postie]: send fr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:47:23.880Z] [DEBUG] [postie]: send Xl ()=>{this.sharedFolders.forEach(n=>{tx([yo.enableDocumentStatus],()=>{this.offDocumentListeners.get(n)||this.offDocumentListeners.set(n,n.fset.on(()=>{this.refresh()}))}),n.whenReady().then(()=>{this.refresh()}),this.unsubscribes.push(n.syncSettingsManager.subscribe(a=>{this.quickRefresh()})),this.unsubscribes.push(n.subscribe(this,()=>{this.quickRefresh()}))}),this.refresh()}
+    at @
+[2025-06-21T04:47:23.880Z] [DEBUG] [LiveViews][[Shared Folders]]: Releasing Views []
+    at @
+[2025-06-21T04:47:23.881Z] [LOG] [Yl]: Saving settings to disk: {
+  "release": {
+    "channel": "stable",
+    "automaticUpdates": false
+  },
+  "sharedFolders": [
+    {
+      "path": "Mission/Nueral",
+      "guid": "838448e3-fb3d-430f-a0dd-381f196cdc0c",
+      "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "Templates/Nueral Templates",
+      "guid": "f069bda1-1597-413f-9f4b-bd6362d811b9",
+      "relay": "cdd5bbe5-7a36-42f4-8107-28693ad3e955",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "Mission/Personal",
+      "guid": "71dc61f6-827e-40e2-8dac-81bdc10c1889",
+      "relay": "fabc29d6-1db5-4088-a5d5-3d46272ec078",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    }
+  ],
+  "enableUpdateYDocFromDiskBuffer": false,
+  "enableDocumentStatus": false,
+  "enableNewLinkFormat": false,
+  "enableDeltaLogging": false,
+  "enableHTTPSync": false,
+  "enableSyncMenu": true,
+  "enableDocumentServer": true,
+  "enableDocumentHistory": false,
+  "enableEditorTweens": false,
+  "enableSyncModal": false,
+  "enableDesyncPill": false,
+  "enableAttachmentSync": true,
+  "enableNetworkLogging": false,
+  "enableCanvasSync": false,
+  "debugging": true,
+  "enableAutomaticUpdatesOption": false
+}
+    at save@
+[2025-06-21T04:47:23.884Z] [DEBUG] [nf]: Fetching latest release from: https://api.github.com/repos/No-Instructions/Relay/releases/latest
+    at fetchLatestRelease@
+[2025-06-21T04:47:23.895Z] [DEBUG] [nf]: Fetching https://raw.githubusercontent.com/No-Instructions/Relay/main/manifest.json
+    at fetchRepoManifest@
+[2025-06-21T04:47:23.920Z] [DEBUG] [postie]: send nf ()=>{let n=this.updateManager.getNewRelease();n?(this.removeCommand("update-plugin"),this.addCommand({id:"update-plugin",name:`Update Plugin (${this.version} \u2192 ${n.tag_name})`,callback:async()=>{await this.updateManager.installUpdate(n)}}),this.log(`Update available: v${this.version} \u2192 ${n.tag_name}`)):this.removeCommand("update-plugin")}
+    at @
+[2025-06-21T04:47:23.931Z] [LOG] [Wl]: type registry change
+    at deliverImmediate@
+[2025-06-21T04:47:23.932Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.933Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.933Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.933Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.933Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.933Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.933Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.933Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.933Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.934Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.934Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.934Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.934Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.934Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.934Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.934Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.934Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.934Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.935Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.935Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.935Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.935Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.935Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.935Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.935Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.935Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.935Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.935Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.936Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.936Z] [LOG] [[SharedFile](Mission/Nueral)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.937Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:23.938Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Releasing Views []
+    at @
+[2025-06-21T04:47:23.939Z] [LOG] [Wl]: type registry change
+    at deliverImmediate@
+[2025-06-21T04:47:23.940Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.940Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.940Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.940Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.941Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.942Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.942Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.942Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.942Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.942Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.942Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.942Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.942Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.943Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.944Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.945Z] [LOG] [[SharedFile](Templates/Nueral Templates)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.945Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:23.947Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Releasing Views []
+    at @
+[2025-06-21T04:47:23.948Z] [LOG] [Wl]: type registry change
+    at deliverImmediate@
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.949Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.950Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.950Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.950Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.950Z] [LOG] [[SharedFile](Mission/Personal)]: [getDoc]: creating doc for shared ID
+    at @
+[2025-06-21T04:47:23.950Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:23.951Z] [DEBUG] [LiveViews][[Shared Folder Ready]]: Releasing Views []
+    at @
+[2025-06-21T04:47:23.982Z] [LOG] [Wl]: type registry change
+    at deliver@
+[2025-06-21T04:47:23.982Z] [DEBUG] [postie]: send Yu ()=>{this.log("type registry change"),this.notifyListeners()}
+    at @
+[2025-06-21T04:47:23.984Z] [DEBUG] [postie]: send Wl async()=>{await this.syncFileTree(this.syncStore)}
+    at @
+[2025-06-21T04:47:23.984Z] [LOG] [Wl]: type registry change
+    at deliver@
+[2025-06-21T04:47:23.984Z] [DEBUG] [postie]: send Yu ()=>{this.log("type registry change"),this.notifyListeners()}
+    at @
+[2025-06-21T04:47:23.985Z] [DEBUG] [postie]: send Wl async()=>{await this.syncFileTree(this.syncStore)}
+    at @
+[2025-06-21T04:47:23.985Z] [LOG] [Wl]: type registry change
+    at deliver@
+[2025-06-21T04:47:23.985Z] [DEBUG] [postie]: send Yu ()=>{this.log("type registry change"),this.notifyListeners()}
+    at @
+[2025-06-21T04:47:23.985Z] [DEBUG] [postie]: send Wl async()=>{await this.syncFileTree(this.syncStore)}
+    at @
+[2025-06-21T04:47:24.064Z] [DEBUG] [Pocketbase]: https://auth.system3.md/api/realtime {
+  "method": "POST",
+  "body": {
+    "clientId": "adbmLyIkEkcuWiy0tWU2dtaWoDNEOyDYwZOGDg4V",
+    "subscriptions": [
+      "relays/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay_invitations_via_relay%2Cshared_folders_via_relay%2Cshared_folders_via_relay.creator%2Csubscriptions_via_relay%2Csubscriptions_via_relay.relay%2Csubscriptions_via_relay.relay.storage_quota%2Ccreator%22%7D%7D",
+      "relay_invitations/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay%22%7D%7D",
+      "providers/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22%22%7D%7D",
+      "relay_roles/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22user%2Crelay%22%7D%7D",
+      "shared_folders/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22relay%2Ccreator%22%7D%7D",
+      "subscriptions/*?options=%7B%22query%22%3A%7B%22expand%22%3A%22user%2Crelay%22%7D%7D"
+    ]
+  },
+  "query": {},
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept-Language": "en-US",
+    "Authorization": "[REDACTED]"
+  },
+  "signal": {}
+}
+    at @
+[2025-06-21T04:47:24.159Z] [DEBUG] [[SharedFile](Mission/Nueral)]: [Provider State] Mission/Nueral {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at remote@
+[2025-06-21T04:47:24.165Z] [DEBUG] [[SharedFile](Templates/Nueral Templates)]: [Provider State] Templates/Nueral Templates {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at remote@
+[2025-06-21T04:47:24.167Z] [DEBUG] [[SharedFile](Mission/Personal)]: [Provider State] Mission/Personal {
+  "status": "disconnected",
+  "intent": "connected"
+}
+    at remote@
+[2025-06-21T04:47:24.169Z] [DEBUG] [postie]: send fr a=>{let i=!1;this.items().forEach(l=>{let c=a.find(u=>u.guid==l.guid);l.remote!=c&&(i=!0),l.remote=c}),i&&this.update()}
+    at @
+[2025-06-21T04:47:24.169Z] [DEBUG] [postie]: send fr A=>{this.remote=A.find(O=>O.guid==this.guid)}
+    at @
+[2025-06-21T04:47:24.169Z] [DEBUG] [postie]: send fr A=>{this.remote=A.find(O=>O.guid==this.guid)}
+    at @
+[2025-06-21T04:47:24.169Z] [DEBUG] [postie]: send fr A=>{this.remote=A.find(O=>O.guid==this.guid)}
+    at @
+[2025-06-21T04:47:24.169Z] [DEBUG] [LiveViews][[Docset]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:24.169Z] [DEBUG] [postie]: send id ()=>{this.refresh("[Docset]")}
+    at @
+[2025-06-21T04:47:24.169Z] [DEBUG] [postie]: send id ()=>{this.refresh("[Docset]")}
+    at @
+[2025-06-21T04:47:24.169Z] [DEBUG] [postie]: send id ()=>{this.refresh("[Docset]")}
+    at @
+[2025-06-21T04:47:24.169Z] [DEBUG] [postie]: send Qc s=>{s.guid===this.relayId&&(this.server=s.providerId)}
+    at @
+[2025-06-21T04:47:24.169Z] [DEBUG] [postie]: send Qc s=>{s.guid===this.relayId&&(this.server=s.providerId)}
+    at @
+[2025-06-21T04:47:24.169Z] [DEBUG] [postie]: send Qc s=>{s.guid===this.relayId&&(this.server=s.providerId)}
+    at @
+[2025-06-21T04:47:24.170Z] [DEBUG] [LiveViews][[Docset]]: Releasing Views []
+    at @
+[2025-06-21T04:47:24.170Z] [DEBUG] [LiveViews][[Docset]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:24.170Z] [DEBUG] [LiveViews][[Docset]]: Releasing Views []
+    at @
+[2025-06-21T04:47:24.383Z] [DEBUG] [LiveViews][[Shared Folders]]: Refresh
+    at _refreshViews@
+[2025-06-21T04:47:24.383Z] [DEBUG] [postie]: send Xl ()=>{this.refresh("[Shared Folders]"),this.folderListeners.forEach((l,c)=>{this.sharedFolders.has(c)||(l(),this.folderListeners.delete(c))}),this.sharedFolders.forEach(l=>{this.folderListeners.has(l)||this.folderListeners.set(l,i(l))})}
+    at @
+[2025-06-21T04:47:24.383Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.383Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.383Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.384Z] [DEBUG] [postie]: send fr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:47:24.386Z] [DEBUG] [postie]: send Xl ()=>{this.sharedFolders.forEach(n=>{tx([yo.enableDocumentStatus],()=>{this.offDocumentListeners.get(n)||this.offDocumentListeners.set(n,n.fset.on(()=>{this.refresh()}))}),n.whenReady().then(()=>{this.refresh()}),this.unsubscribes.push(n.syncSettingsManager.subscribe(a=>{this.quickRefresh()})),this.unsubscribes.push(n.subscribe(this,()=>{this.quickRefresh()}))}),this.refresh()}
+    at @
+[2025-06-21T04:47:24.387Z] [DEBUG] [LiveViews][[Shared Folders]]: Releasing Views []
+    at @
+[2025-06-21T04:47:24.443Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.443Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.443Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.444Z] [DEBUG] [postie]: send fr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:47:24.537Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.537Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.537Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.537Z] [DEBUG] [postie]: send fr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:47:24.586Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.586Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.586Z] [DEBUG] [postie]: send fr ()=>{r(this.getGroupProgress(t))}
+    at @
+[2025-06-21T04:47:24.587Z] [DEBUG] [postie]: send fr ()=>this.quickRefresh()
+    at @
+[2025-06-21T04:47:30.168Z] [LOG] [Nt]: applying server flags {
+  "enableEditorTweens": false,
+  "enableSyncMenu": true,
+  "enableAttachmentSync": true,
+  "enableDocumentServer": true
+}
+    at applyServerFlags@
