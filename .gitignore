@@ -2,3 +2,4 @@
 .makemd
 workspace.json
 workspace-mobile.json
+*.log
