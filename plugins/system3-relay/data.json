@@ -39,6 +39,30 @@
         "pdfs": true,
         "otherTypes": false
       }
+    },
+    {
+      "path": "Mission/Кохання",
+      "guid": "e5f97f49-e85a-44e9-9d2a-b219758a03bf",
+      "relay": "198dc41a-e0c0-4bd1-a524-9cb5db90cf03",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "Templates/Кохання Шаблони",
+      "guid": "facb96ef-11ea-4420-9a9d-43014a1bc2bb",
+      "relay": "198dc41a-e0c0-4bd1-a524-9cb5db90cf03",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
     }
   ],
   "enableUpdateYDocFromDiskBuffer": false,
