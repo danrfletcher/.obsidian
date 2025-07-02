@@ -4,3 +4,4 @@ workspace.json
 workspace-mobile.json
 *.log
 *.log.*
+plugins/system3-relay/data.json
