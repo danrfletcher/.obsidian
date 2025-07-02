@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiShoppingCart",
       "LiFolder",
       "LiHeart",
       "LiListTodo",
-      "LiPenLine",
-      "LiApple"
+      "LiPenLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -46,5 +46,8 @@
   "Mission/Personal/Personal Docs/Diary.md": "LiPenLine",
   "Mission/Personal/Personal Docs/Agenda.md": "LiListTodo",
   "Mission/Personal/Personal Docs/Dating": "LiHeart",
-  "Mission/Personal/Personal Docs/Archive": "LiFolder"
+  "Mission/Personal/Personal Docs/Archive": "LiFolder",
+  "Mission/Personal/Personal Docs/Diet/Diet.md": "LiApple",
+  "Mission/Personal/Personal Docs/Diet": "LiApple",
+  "Mission/Personal/Personal Docs/Diet/Grocery List.md": "LiShoppingCart"
 }
