@@ -1,0 +1,13 @@
+.trash
+.makemd
+workspace.json
+workspace-mobile.json
+*.log
+*.log.*
+.obsidian/cache
+.DS_store
+Thumbs.db
+todoist-token
+node_modules
+.obsidian/workspace
+.obsidian/workspace.json
