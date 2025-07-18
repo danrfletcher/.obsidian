@@ -14,7 +14,6 @@
     "Sample Templates/CRM/Payment States/Abandoned.md",
     "Sample Templates/CRM/Payment States/Paid in Full.md",
     "Sample Templates/CRM/Payment States/Payment Plan.md",
-    "Sample Templates/Members/Member Name/Active External Delegate.md",
     "Sample Templates/Prioritization/Kano/Kano (L-1) - Dissatisfier - With Info.md",
     "Sample Templates/Prioritization/Kano/Kano (L0) - Indifferent - With Info.md",
     "Sample Templates/Prioritization/Kano/Kano (L1) - Basic - With Info.md",
@@ -43,7 +42,6 @@
     "Sample Templates/Agile Artifacts/Agile - Product.md",
     "Sample Templates/CRM/Payment States/Awaiting Deposit.md",
     "Sample Templates/CRM/Payment States/Deposit Paid.md",
-    "Sample Templates/Members/Member Name/Active Team Delegate.md",
     "Sample Templates/CRM/Payment States/Partially Paid.md",
     "Sample Templates/Prioritization/Kano/Kano (L-1) - Dissatisfier - Header.md",
     "Sample Templates/Prioritization/Kano/Kano (L0) - Indifferent - Header.md",
@@ -60,7 +58,8 @@
     "Sample Templates/Workflows/Metadata/Link to Any Artifact.md",
     "Sample Templates/Workflows/Metadata/Timestamp.md",
     "Sample Templates/Workflows/States/Pending.md",
-    "Sample Templates/Internal Inline Link.md"
+    "Sample Templates/Internal Inline Link.md",
+    "Sample Templates/CRM/Payment States/Commission.md"
   ],
   "templaterFiles": [
     "⛔ Set task as Impediment.md",

@@ -6,72 +6,65 @@
       "items": [
         {
           "type": "group",
-          "ctime": 1740137831089,
+          "ctime": 1740137831090,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1740145478180,
+              "path": "Mission/Nueral/Sprints.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "file",
+              "ctime": 1740142016816,
+              "path": "Mission/Nueral/Nueral.md",
+              "subpath": "#^-"
+            }
+          ],
+          "title": "\\\\Nueral"
+        },
+        {
+          "type": "group",
+          "ctime": 1750639351638,
           "items": [
             {
               "type": "group",
-              "ctime": 1740137831090,
-              "items": [
-                {
-                  "type": "file",
-                  "ctime": 1740145478180,
-                  "path": "Mission/Nueral/Sprints.md",
-                  "subpath": "#^-"
-                },
-                {
-                  "type": "file",
-                  "ctime": 1740142016816,
-                  "path": "Mission/Nueral/Nueral.md",
-                  "subpath": "#^-"
-                }
-              ],
-              "title": "\\\\Nueral"
+              "ctime": 1750639351639,
+              "items": [],
+              "title": "Кохання Доки"
             },
             {
               "type": "group",
-              "ctime": 1750639351638,
-              "items": [
-                {
-                  "type": "group",
-                  "ctime": 1750639351639,
-                  "items": [],
-                  "title": "Кохання Доки"
-                },
-                {
-                  "type": "group",
-                  "ctime": 1750639355250,
-                  "items": [],
-                  "title": "Кохання Ініціативи"
-                },
-                {
-                  "type": "file",
-                  "ctime": 1750639364116,
-                  "path": "Mission/Кохання/Кохання Пріоритети.md",
-                  "subpath": "#^-"
-                },
-                {
-                  "type": "file",
-                  "ctime": 1750639361286,
-                  "path": "Mission/Кохання/Кохання OKRs.md",
-                  "subpath": "#^-"
-                },
-                {
-                  "type": "file",
-                  "ctime": 1750639366786,
-                  "path": "Mission/Кохання/Ксенія Нечипор.md",
-                  "subpath": "#^-"
-                },
-                {
-                  "type": "file",
-                  "ctime": 1750639357864,
-                  "path": "Mission/Кохання/Dan Fletcher.md",
-                  "subpath": "#^-"
-                }
-              ],
-              "title": "Кохання"
+              "ctime": 1750639355250,
+              "items": [],
+              "title": "Кохання Ініціативи"
+            },
+            {
+              "type": "file",
+              "ctime": 1750639364116,
+              "path": "Кохання/Кохання Пріоритети.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "file",
+              "ctime": 1750639361286,
+              "path": "Кохання/Кохання OKRs.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "file",
+              "ctime": 1750639366786,
+              "path": "Кохання/Ксенія Нечипор.md",
+              "subpath": "#^-"
+            },
+            {
+              "type": "file",
+              "ctime": 1750639357864,
+              "path": "Кохання/Dan Fletcher.md",
+              "subpath": "#^-"
             }
           ],
-          "title": "Mission"
+          "title": "\\\\Кохання"
         }
       ],
       "title": "Ordering"
@@ -79,7 +72,7 @@
     {
       "type": "file",
       "ctime": 1751431929953,
-      "path": "Mission/Personal/Personal Docs/Diet/Grocery List.md"
+      "path": "Personal/Personal Docs/Grocery List.md"
     }
   ]
 }
