@@ -59,7 +59,14 @@
     "Sample Templates/Workflows/Metadata/Timestamp.md",
     "Sample Templates/Workflows/States/Pending.md",
     "Sample Templates/Internal Inline Link.md",
-    "Sample Templates/CRM/Payment States/Commission.md"
+    "Sample Templates/CRM/Payment States/Commission.md",
+    "Nueral Templates/Dan Fletcher/Dan Fletcher - Snooze Subtasks.md",
+    "Sample Templates/Members/Active External Delegate.md",
+    "Sample Templates/Members/Active Team Delegate.md",
+    "Sample Templates/Members/Everyone.md",
+    "Nueral Templates/Dan Fletcher/Dan Fletcher - Inactive.md",
+    "Sample Templates/Agile Artifacts/Agile (Personal) - Learning Initiative.md",
+    "Sample Templates/Agile Artifacts/Agile (Personal) - Learning Epic.md"
   ],
   "templaterFiles": [
     "⛔ Set task as Impediment.md",
